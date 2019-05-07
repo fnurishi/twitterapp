@@ -1,0 +1,20 @@
+# How to create Database & tables
+1. open MySQL Workbench
+2. Right Click on Local instance Mysql55 option --> edit connection
+3. check default schema is test 
+4. close it.
+5. Double Click on Local instance Mysql55 option --> enter password mysql --> ok
+6. in query main window, clear all text.
+7. open  twiterapp-db.sql file and copy & paste all text in query window.
+8. Select all text in query window and hit bolt icon on right top of query window.
+9. right side option "SCHEMAS" --> refresh icon ---> then you will new db and tables under twiterdb node 
+
+# Open Database 
+
+1. open MySQL Workbench
+2. Right Click on Local instance Mysql55 option --> edit connection
+3. check default schema is twiterdb (That created by script twiterapp-db.sql)
+4. close it.
+5. Double Click on Local instance Mysql55 option --> enter password mysql --> ok
+6. right side option "SCHEMAS" --> twiterdb --> Tables (all table created by db script)
+7. right click on any table --> select rows option to see data in tables
