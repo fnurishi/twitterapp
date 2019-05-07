@@ -1,0 +1,1 @@
+Import scripts from postman-scripts file to postman
